@@ -1,0 +1,6 @@
+theme = ayu-dark-pro
+background-opacity = 0.80
+background-blur = 80
+shell-integration-features = no-cursor
+cursor-style = block
+window-inherit-working-directory = false

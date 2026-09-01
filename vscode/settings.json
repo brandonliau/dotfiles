@@ -1,0 +1,14 @@
+{
+  "files.autoSave": "afterDelay",
+  "workbench.colorTheme": "Ayu Dark Pro",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.layoutControl.enabled": false,
+  "workbench.startupEditor": "none",
+  "workbench.editor.empty.hint": "hidden",
+  "window.commandCenter": false,
+  "explorer.confirmDragAndDrop": false,
+  "terminal.integrated.initialHint": false,
+  "chat.disableAIFeatures": true,
+  "editor.minimap.enabled": false,
+  "workbench.experimental.modernUI": false
+}
