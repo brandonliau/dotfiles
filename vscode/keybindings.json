@@ -37,7 +37,6 @@
     { "key": "cmd+]", "command": "workbench.action.debug.nextConsole", "when": "inDebugRepl" },
 
     { "key": "cmd+w", "command": "-workbench.action.closeActiveEditor" },
-    { "key": "cmd+w", "command": "-workbench.action.closeWindow" },
     { "key": "cmd+w", "command": "workbench.action.closeActiveEditor", "when": "editorIsOpen" },
     { "key": "cmd+w", "command": "workbench.action.terminal.killActiveTab", "when": "terminalFocus" },
 
