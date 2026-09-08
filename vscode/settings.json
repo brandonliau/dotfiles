@@ -5,10 +5,11 @@
   "workbench.layoutControl.enabled": false,
   "workbench.startupEditor": "none",
   "workbench.editor.empty.hint": "hidden",
+  "workbench.experimental.modernUI": false,
   "window.commandCenter": false,
   "explorer.confirmDragAndDrop": false,
   "terminal.integrated.initialHint": false,
   "chat.disableAIFeatures": true,
-  "editor.minimap.enabled": false,
-  "workbench.experimental.modernUI": false
+  "extensions.ignoreRecommendations": true,
+  "editor.minimap.enabled": false
 }
