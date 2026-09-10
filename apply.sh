@@ -10,3 +10,4 @@ cp "$DOTFILES/vscode/settings.json" "$HOME/Library/Application Support/Code/User
 cp "$DOTFILES/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
 cp "$DOTFILES/ghostty/config.ghostty" "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty"
 cp "$DOTFILES/zen/zen-keyboard-shortcuts.json" "$HOME/Library/Application Support/zen/$ZEN_PROFILE_PATH/zen-keyboard-shortcuts.json"
+cp "$DOTFILES/zen/zen-themes.json" "$HOME/Library/Application Support/zen/$ZEN_PROFILE_PATH/zen-themes.json"
