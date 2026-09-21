@@ -6,9 +6,9 @@ eval "$(pyenv virtualenv-init -)"
 alias ll="ls --color=auto -lAh"
 alias la="ls --color=auto -lah"
 
-alias cp="cp -iv"
-alias mv="mv -iv"
-alias rm="rm -iv"
+alias cp="cp -v"
+alias mv="mv -v"
+alias rm="rm -v"
 
 alias awake="caffeinate -d"
 
