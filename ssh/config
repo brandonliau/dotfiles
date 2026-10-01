@@ -1,0 +1,21 @@
+# Added by OrbStack: 'orb' SSH host for Linux machines
+# This only works if it's at the top of ssh_config (before any Host blocks).
+# This won't be added again if you remove it.
+Include ~/.orbstack/ssh/config
+
+Host *
+  AddKeysToAgent yes
+  UseKeychain yes
+  IdentityFile ~/.ssh/id_ed25519
+
+Host bliau
+    HostName 192.168.2.101
+    User bliau
+
+Host dietpi
+    HostName 192.168.2.101
+    User dietpi
+
+Host root
+    HostName 192.168.2.101
+    User root

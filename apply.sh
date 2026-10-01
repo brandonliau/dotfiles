@@ -6,10 +6,10 @@ ZEN_PROFILE_PATH=$(awk -F= '/^\[Install/{f=1} f && /^Default=/{print $2; exit}' 
 
 cp "$DOTFILES/zsh/.zshrc" "$HOME/.zshrc"
 cp "$DOTFILES/zsh/.zprofile" "$HOME/.zprofile"
+cp "$DOTFILES/ssh/config" "$HOME/.ssh/config"
 cp "$DOTFILES/vscode/settings.json" "$HOME/Library/Application Support/Code/User/settings.json"
 cp "$DOTFILES/vscode/keybindings.json" "$HOME/Library/Application Support/Code/User/keybindings.json"
 cp "$DOTFILES/ghostty/config.ghostty" "$HOME/Library/Application Support/com.mitchellh.ghostty/config.ghostty"
 cp "$DOTFILES/zen/zen-keyboard-shortcuts.json" "$HOME/Library/Application Support/zen/$ZEN_PROFILE_PATH/zen-keyboard-shortcuts.json"
 cp "$DOTFILES/zen/zen-themes.json" "$HOME/Library/Application Support/zen/$ZEN_PROFILE_PATH/zen-themes.json"
 cp "$DOTFILES/zen/user.js" "$HOME/Library/Application Support/zen/$ZEN_PROFILE_PATH/user.js"
-# cp "$DOTFILES/zen/prefs.js" "$HOME/Library/Application Support/zen/$ZEN_PROFILE_PATH/prefs.js"

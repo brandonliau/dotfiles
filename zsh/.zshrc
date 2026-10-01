@@ -11,7 +11,3 @@ alias mv="mv -v"
 alias rm="rm -v"
 
 alias awake="caffeinate -d"
-
-alias sshbliau="ssh bliau@192.168.2.101"
-alias sshdietpi="ssh dietpi@192.168.2.101"
-alias sshroot="ssh root@192.168.2.101"
