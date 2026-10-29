@@ -5,3 +5,4 @@ background-blur = 80
 shell-integration-features = no-cursor
 cursor-style = block
 window-inherit-working-directory = false
+copy-on-select = clipboard
